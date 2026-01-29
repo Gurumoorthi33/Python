@@ -1,0 +1,30 @@
+* XGBosst (Extreme Gradient Boosting) is an optimized implementation of the gradient boosting algorithm.
+* proven success compared to other algorithms in machine learnig competitions.
+* Goood for supervised learning problems.
+
+What is gradient Boosting ?
+          
+          1. Gradient Boosting is a machine learning algorithms that sequentialy ensembles weak predictive models into a stronger predictive models.
+          2. Good for both supervised regression and classification problems.
+          3. Most weak ensembles models to the ensembles are decision trees.
+          advantages: performant and easy to use.
+          disadvantages: overfit and a lot of computing power.
+
+XGBoost: tree based gradient boosting key improvements.
+         * regularized.
+            eg. theobjective function of the XGBosst has a regularization term added to the loss function.
+         * More Scalable.
+            eg. Memory Optimization, Cache Optimization, Distributed Computing.
+
+XGBOOST is a faster framework that can build better models.
+
+stratify ---> It keeps the same class proportion in both train and test sets as in the original dataset.
+
+Biased model ---> A biased model is a model that learns unfairly or incorrectly because the training data is not balanced or representative.
+
+                               (ALT)
+
+A biased model is a model that makes unfair or wrong predictions because it learned from imbalanced or incomplete data.
+
+pipeline ---> A Pipeline ensures that data preprocessing and model training happen in the correct order, automatically and safely.
+
