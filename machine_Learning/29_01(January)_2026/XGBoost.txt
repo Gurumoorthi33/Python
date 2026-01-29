@@ -28,3 +28,5 @@ A biased model is a model that makes unfair or wrong predictions because it lear
 
 pipeline ---> A Pipeline ensures that data preprocessing and model training happen in the correct order, automatically and safely.
 
+XGBoost is preferred because it sequentially corrects mistakes, controls overfitting, and consistently delivers higher performance on real-world data.
+
